@@ -828,4 +828,6 @@ def main() -> int:
 
 
 if __name__ == "__main__":
-    sys.exit(main())
+    exit_code = main()
+    input("\nDone. Press Enter to close...")
+    sys.exit(exit_code)
